@@ -1,0 +1,107 @@
+.sidebar-container {
+    height: 100%;
+    min-height: 80vh;
+    width: 25%;
+    padding: .5rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    min-width: 345.33px;
+    max-width: 345.33px;
+    
+}
+
+.navbar {
+    background-color: rgb(26, 1, 1);
+    border-radius: 3px;
+    padding-top: 8px;
+    padding-left: 8px;
+    height: 15%;
+    min-height: 9vh;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+   
+}
+
+.lib-container {
+    background-color: rgb(26, 1, 1);
+    border-radius: 3px;
+    padding-top: 8px;
+    padding-left: 3px;
+    height: 85%;
+    min-height: 62vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 3px;
+    padding-bottom: 120px;
+}
+
+.list-content {
+    padding: 1rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    background-color: rgb(81, 9, 9);
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.list-content h3 {
+    font-size: 15px;
+}
+
+.list-content button {
+    margin-top: 1.4rem;
+    margin-bottom: .5rem;
+    width: 160px;
+    height: 30px;
+    background-color: rgb(28, 1, 1);
+    color: white;
+    font-size: 14px;
+    border: none;
+    border-radius: 13px;
+    cursor: pointer;
+}
+
+
+
+.side-content {
+    display: flex;
+    
+
+    padding-left: 1rem;
+
+    
+    
+
+
+}
+
+.lib-icons {
+position: relative;
+left: 57%;
+ 
+
+}
+
+.nav-content:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
+svg {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    float: left;
+    padding-top: 13px;
+    padding-right: 8px;
+    cursor: pointer;
+}

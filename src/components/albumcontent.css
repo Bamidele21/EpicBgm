@@ -1,0 +1,67 @@
+.data-container {
+    margin-top: 3rem;
+    padding-left: 1.2rem;
+    
+}
+
+.stat-container {
+    display: flex;
+    gap: 2%;
+}
+
+.stat-content {
+    font-size: 1.3rem;
+   
+}
+
+.track-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    font-size: 1.1rem;
+}
+.song-list {
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    align-self: center;
+    height: 90px;
+    width: 100%;
+   
+    
+    
+    
+
+
+}
+
+.song-list:hover {
+    background-color: rgba(0, 0, 0, 0.479);
+    cursor: pointer;
+    box-shadow: 1px 1px 4px azure;
+}
+
+.songtrack-container {
+    height: 35vh;
+    overflow: auto;
+}
+
+.songtrack-container img {
+    
+    
+    padding: 0;
+    margin: 0;
+   margin-right: 10px;
+}
+
+.song-list p {
+    font-size: 1rem;
+    margin-bottom: 0;
+    align-content: center;
+    overflow: none;
+
+}
+
+.song-list p span {
+    position: relative;
+    bottom: 18px;
+}

@@ -1,0 +1,27 @@
+html {
+    margin: 0 ;
+    padding: 0;
+    background-image: url("./assets/radhan.jpg");
+    background-position: center ;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+   
+  }
+  
+  body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+   
+  }
+
+
+
+
+.app-container {
+    display: flex;
+    height: 85%;
+    min-height: 85vh;
+    margin-top: 0;
+    padding-top: 0
+}

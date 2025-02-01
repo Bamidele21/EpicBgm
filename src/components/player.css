@@ -1,0 +1,85 @@
+.player-container {
+    position:absolute;
+    bottom: 0;
+    height: 10%;
+    width: 97.99%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(26, 1, 1, 0.749);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.song-container {
+    display: flex;
+    align-items: center;
+    
+    width: 27%
+}
+
+.song-img {
+    padding-right: 2rem;
+
+}
+
+.controls-container {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    justify-self: center;
+}
+
+
+.progress-bar {
+    display: flex;
+}
+
+
+.progress-filler {
+    width: 60vh;
+    max-width: 500px;
+    height: 4px;
+    background-color: azure;
+    border-radius: 8px;
+    align-self: center;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding: 0px;
+
+}
+
+.progress-filler hr {
+    position: relative;
+    top: -185%;
+    height: 3px;
+    background-color: red;
+    width: 0%;
+    margin-left: 1px;
+    margin-right: 1px;
+    align-self: center;
+    ;
+    border-radius: 8px;
+    border: 0
+}
+
+.volume-bar {
+    height: 3px;
+    margin-left: 3px;
+    margin-right: 6px;
+    width: 200px;
+    background-color: azure;
+    justify-self: center;
+    margin-top: 10px;
+}
+
+.volume-container {
+    display: flex;
+    align-items: center;
+    justify-self: right;
+    padding-left: 50px;
+    
+}
