@@ -8,6 +8,7 @@
     flex-direction: column;
     min-width: 345.33px;
     max-width: 345.33px;
+    margin: 0
     
 }
 
@@ -41,7 +42,7 @@
     flex-direction: column;
     justify-content: space-around;
     margin-top: 3px;
-    padding-bottom: 120px;
+    padding-bottom: 8.2rem;
 }
 
 .list-content {
