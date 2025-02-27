@@ -11,7 +11,7 @@ function AlbumItem({title, image, discription, id}) {
         <>
         <div className="album-item" onClick={()=>navigate(`/album/${id}`)}>
             
-            <img src={image} height = "200px" width = "280px" alt=""/>
+            <img src={image} alt=""/>
             <h3>{title}</h3>
             <p>{discription}</p>
 

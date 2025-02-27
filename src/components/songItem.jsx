@@ -10,7 +10,7 @@ function SongItem({title, image, artist, album, id}) {
     return (
         <>
         <div onClick={()=>idPlay(id)} className="song-item">
-            <img src={image} height = "200px" width = "280px" alt={title} />
+            <img src={image} alt={title} />
             <h4>{title}</h4>
             <p>{artist} - {album}</p>
 

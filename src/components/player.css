@@ -7,14 +7,18 @@
     justify-content: space-between;
     align-items: center;
     background-color: rgb(26, 1, 1);
+    border-top: 2px solid rgba(0, 0, 0, 0.513);
+
+  
+   
    
 }
 
-.song-container {
+.songplayer-container {
     display: flex;
     align-items: center;
     margin-left: 1rem;
-    width: 24%
+    width: 20%
 }
 
 .song-img {
@@ -25,7 +29,7 @@
 .controls-container {
     display: flex;
     flex-direction: column;
-    width: 700px;
+    width: 550px;
     justify-content: center;
     align-items: center;
     justify-items: center;
@@ -41,12 +45,12 @@
 .progress-filler {
     width: 60vh;
     max-width: 500px;
-    height: 4px;
+    height: .25em;
     background-color: azure;
     border-radius: 8px;
     align-self: center;
-    margin-left: 8px;
-    margin-right: 8px;
+    margin-left: .5px;
+    margin-right: .5px;
     padding: 0px;
     margin-bottom: 0px;
     align-content: center;
@@ -71,19 +75,19 @@
 }
 
 .volume-bar {
-    height: 3px;
-    margin-left: 3px;
-    margin-right: 6px;
-    width: 200px;
+    height: .25em;
+    margin-left: .25em;
+    margin-right: .3em;
+    width: 7em;
     background-color: azure;
     justify-self: center;
-    margin-top: 10px;
+    margin-top: .77rem;
 }
 
 .volume-container {
     display: flex;
     align-items: center;
     justify-self: right;
-    padding-left: 50px;
+    padding-left: 1.8em;
     
 }

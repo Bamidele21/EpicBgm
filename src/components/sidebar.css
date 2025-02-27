@@ -1,13 +1,12 @@
 .sidebar-container {
     height: 100%;
     min-height: 80vh;
-    width: 25%;
-    padding: .5rem;
+    width: 21em;
+    padding: .2rem;
     color: white;
     display: flex;
     flex-direction: column;
-    min-width: 345.33px;
-    max-width: 345.33px;
+    
     margin: 0
     
 }
@@ -35,21 +34,21 @@
     background-color: rgb(26, 1, 1);
     border-radius: 3px;
     padding-top: 8px;
-    padding-left: 3px;
-    height: 85%;
-    min-height: 62vh;
+    padding-left: 0.35rem;
+    height: 75.7vh;
+   
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin-top: 3px;
-    padding-bottom: 8.2rem;
+    margin-top: .3rem;
+   
 }
 
 .list-content {
     padding: 1rem;
     margin-right: 1rem;
     margin-top: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     background-color: rgb(81, 9, 9);
     font-size: 12px;
     border-radius: 5px;

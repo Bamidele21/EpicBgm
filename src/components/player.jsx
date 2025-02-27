@@ -22,7 +22,7 @@ function Player() {
 
     <>
     <div className="player-container">
-        <div className="song-container">
+        <div className="songplayer-container">
             <div className="song-img">
                 <img src={track.image} height="72px" alt={track.title} />
 
